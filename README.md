@@ -1,4 +1,4 @@
-# Project Title
+# The Dojo Wall
 
 The wall is a basic message and comment posting application that demonstrates basic front end and
 back end development principles.
@@ -11,7 +11,7 @@ Some basic data flow principles include user input validation; such as empty fie
 
 ## Built With
 
-* [Pyhton](https://docs.python.org/2.7/tutorial/index.html/) - The Zen of Python - Beautiful is than ugly...
+* [Pyhton](https://docs.python.org/2.7/tutorial/index.html/) - The Zen of Python - Beautiful is better than ugly...
 * [Flask](http://flask.pocoo.org/docs/0.12/) - web development one drop at a time
 * [MySQL](https://dev.mysql.com/doc/) - The world's most popular open source database
 
