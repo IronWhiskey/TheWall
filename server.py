@@ -1,14 +1,24 @@
+# Dev: Michael G.
+# Date 3/16/2018
+# Build with: python, flask, mySQL, html, css
+# Description:  Basic message posting application that demonstrates user login and registration
+# application allows registered/logged in users to post messages and comments on community wall
+ 
+#------------------------------------- IMPORTS --------------------------------------
 from flask import Flask, render_template, request, redirect, flash, session
 from mysqlconnection import MySQLConnector
 import md5
 import re
 import datetime
+#------------------------------------------------------------------------------------
+
+
 
 app = Flask(__name__)
 # our index route will handle rendering our form
 app.secret_key='keepItSecret'
 mysql = MySQLConnector(app, 'the_wall')
-######################################## NEED TO CHANGE DB ABOVE #################################
+
 
 @app.route('/')
 def index():
