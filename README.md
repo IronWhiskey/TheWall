@@ -1,10 +1,9 @@
 # The Dojo Wall
 
-The wall is a basic message and comment posting application that demonstrates basic front end and
-back end development principles.
+The wall is a basic message and comment posting application that demonstrates basic front end and back end development principles.
 
 The root/home page allows users to either log in or register to "The Wall" app. A user will register
-and have his/her information stored within the  MySQL database. The database consists of a three tables that includes 'users', 'messages', and 'comments'. Once logged in a user will be able to read messages and comments, and then post a new message or a comment to a previous thread.
+and have his/her information stored within the  MySQL database. The database consists of three tables that includes 'users', 'messages', and 'comments'. Once logged in, a user will be able to read messages/comments and post new messages or comment to a previous thread.
 
 Some basic data flow principles include user input validation; such as empty fields, correct email format, password type requirements, and data sanitation before insertion into the database.
 
